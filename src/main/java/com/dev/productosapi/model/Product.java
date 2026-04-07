@@ -15,6 +15,8 @@ import java.util.UUID;
 @Getter @Setter
 @Table(name= "products")
 @NoArgsConstructor
+//se añade un constructor con parametros para los atributos
+@AllArgsConstructor
 public class Product {
 
     @Id
