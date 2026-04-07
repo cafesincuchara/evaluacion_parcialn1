@@ -1,7 +1,7 @@
 name: Staff Quick Test
 on:
   push:
-    branches: [ "develop", "main" ] # Agregamos ambas para estar seguros
+    branches: [ "develop", "main" ] #se tenia que agregar la rama main para que pueda funcionar el pipeline
 
 jobs:
   test-echo:
