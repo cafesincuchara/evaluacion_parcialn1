@@ -15,6 +15,7 @@ import java.util.UUID;
 @RequestMapping("api/v1/products")
 @RequiredArgsConstructor
 public class ProductController {
+
     //inyectamos el service en el controller para usar metodos
     private final ProductService service;
 
