@@ -1,23 +1,11 @@
-name: Java CI with Maven (Quick Test)
+name: Staff Quick Test
 on:
   push:
-    branches: [ "develop" ]
-  pull_request:
-    branches: [ "main" ]
+    branches: [ "develop", "main" ] # Agregamos ambas para estar seguros
 
 jobs:
-  build:
+  test-echo:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-          cache: maven
-
-      - name: Pipeline Test
-        run: |
-          echo "Pipeline funcionando correctamente."
+      - name: Saludo Staff
+        run: echo "Pipeline funcionando"
