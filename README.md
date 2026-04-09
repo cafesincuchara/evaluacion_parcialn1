@@ -8,7 +8,7 @@ trabajar con diferentes ramas que son orientadas para las nuevas funcionalidades
 para que sea mas estable ya que nos permite separar distintas funciones que podrian
 estar en desarrollo
 
-# 2. Naming de Ramas:
+# 2. Nombre de Ramas:
 feature/registro-productos, hotfix/db-connection-error, feature/setup-api, develop y main.
 
 Commits:Usaremos el estándar Conventional Commits (ej: feat:, fix:, docs:). 
